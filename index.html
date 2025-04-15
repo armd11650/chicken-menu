@@ -12,14 +12,10 @@
     header {
       background-color: #e74c3c;
       color: white;
-      padding: 15px 30px;
+      padding: 10px 30px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-    }
-    .logo {
-      font-size: 22px;
-      font-weight: bold;
     }
     .nav-menu {
       display: flex;
@@ -28,6 +24,10 @@
     .nav-menu div {
       cursor: pointer;
       font-weight: 500;
+    }
+    .logo img {
+      height: 60px; /* Adjust as needed to fit header height */
+      object-fit: contain;
     }
     .section {
       display: flex;
@@ -86,12 +86,12 @@
 
   <header>
     <div class="nav-menu">
-      <div>SB</div>
-      <div>SD</div>
-      <div>SG</div>
-      <div>Com</div>
+      <div>Home</div>
     </div>
-    <div class="logo">Chicken Logo</div>
+    <div class="logo">
+      <!-- Replace src with your actual logo URL once uploaded -->
+      <img src="https://raw.githubusercontent.com/armd11650/chicken-menu/refs/heads/main/banner.jpg" alt="Logo">
+    </div>
   </header>
 
   <div class="section">
@@ -102,7 +102,7 @@
         <img src="https://raw.githubusercontent.com/armd11650/chicken-menu/refs/heads/main/IMG-20250415-WA0002.jpg" alt="Natukodi Kura">
       </div>
       <div><strong>Natukodi Kura</strong></div>
-      <div class="price">₹250</div>
+      <div class="price">₹400</div>
       <button onclick="toggleDesc(0)">View Description</button>
       <div class="desc">Spicy country chicken curry made with native ingredients & Andhra spices.</div>
     </div>
@@ -113,7 +113,7 @@
         <img src="https://raw.githubusercontent.com/armd11650/chicken-menu/refs/heads/main/curry.jpg" alt="Chicken Curry">
       </div>
       <div><strong>Chicken Curry</strong></div>
-      <div class="price">₹200</div>
+      <div class="price">₹300</div>
       <button onclick="toggleDesc(1)">View Description</button>
       <div class="desc">Classic homemade chicken curry with rich gravy.</div>
     </div>
@@ -124,7 +124,7 @@
         <img src="https://raw.githubusercontent.com/armd11650/chicken-menu/refs/heads/main/chicken-ghee-roast.jpg" alt="Chicken Ghee Roast">
       </div>
       <div><strong>Chicken Ghee Roast</strong></div>
-      <div class="price">₹280</div>
+      <div class="price">₹380</div>
       <button onclick="toggleDesc(2)">View Description</button>
       <div class="desc">A dry roast chicken dish made with ghee and fiery spices .</div>
     </div>
@@ -135,7 +135,7 @@
         <img src="https://raw.githubusercontent.com/armd11650/chicken-menu/refs/heads/main/ChickenKeemaPic2.jpg" alt="Chicken Keema">
       </div>
       <div><strong>Chicken Keema</strong></div>
-      <div class="price">₹220</div>
+      <div class="price">₹320</div>
       <button onclick="toggleDesc(3)">View Description</button>
       <div class="desc">Minced chicken cooked  flavorful masalas.</div>
     </div>
